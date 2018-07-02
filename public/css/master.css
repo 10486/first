@@ -1,0 +1,68 @@
+.form{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  background: #eaeaea url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg');
+  background-size: cover;
+  padding:100px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.form-row{
+  padding:5px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.textarea{
+  resize: none;
+  overflow: auto;
+  height:100px;
+  width:100%;
+}
+
+
+.type-file{
+  display:none;
+}
+.form-group{
+  padding:20px 60px;
+  border-radius: 20px;
+  color:#e5e5e5;
+  background: rgba(0, 0, 0, 0.4);
+}
+.input{
+  background-color: rgba(0, 0, 0, 0.0);
+  border:none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  outline:none;
+  color:#e5e5e5;
+}
+.btn-group{
+  display:inline-flex;
+  border-radius: 15px ;
+  overflow: hidden;
+}
+.btn{
+  color:#e5e5e5;
+  padding:10px;
+  background-color:rgba(52, 132, 207, 0.4) ;
+  border:none;
+  outline:none;
+}
+.btn:last-child{
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:rgba(52, 132, 207, 0.5) ;
+
+}
+.custom-file{
+  display:inline-block;
+  padding:10px;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:rgba(52, 132, 207, 0.4) ;
+}

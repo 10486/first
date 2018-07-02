@@ -1,0 +1,21 @@
+ul{
+  padding-left: 20px;
+  list-style: initial;
+  list-style-position: inside ;
+}
+#main .row{
+  font-size: 20px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+#main .row:first-child{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+#main .row:last-child{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+
+}

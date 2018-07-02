@@ -1,0 +1,25 @@
+.post{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.post-content{
+padding-top: 10px;
+  overflow: hidden;
+}
+.image.full{max-height: 400px;}
+.btn{
+  margin-left: auto;
+  text-decoration: none !important;
+  display: inline-block;
+  margin-top:-30px;
+  padding:0px 10px;
+  color:#fafafa;
+  background: rgba(110, 198, 61, 0.8);
+  border-radius: 10px;
+}
+.btn:hover{
+  cursor: pointer;
+  background: rgba(110, 198, 61, 1);
+}
