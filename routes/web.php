@@ -34,7 +34,3 @@ Route::group(['middleware'=>'auth','prefix'=>'admin'],function () {
   Route::post('/register','RegController@register')->name('register');//ready
   Route::get('/logout','LogController@logout')->name('logout');//ready
 });
-Route::get('/test',function () {
-  echo sys_get_temp_dir();
-  return;
-});

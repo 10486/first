@@ -6,4 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 class Admin extends Model
 {
     protected $table = 'admins_pages';
+    protected $fillable = ['name','routeName'];
+    public $timestamps = false;
+    
+
 }
