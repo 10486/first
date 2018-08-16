@@ -15,8 +15,8 @@ class Pages extends Migration
     {
       Schema::create('pages', function (Blueprint $table) {
           $table->increments('id');
-          $table->string('name');
-          $table->string('routeName');
+          $table->string('name',255);
+          $table->string('routeName',255);
       });
     }
 
