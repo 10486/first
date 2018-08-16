@@ -15,7 +15,7 @@ class FeedbackController extends Controller
       $data = $request->all();
       $m = Mail::send('email.feedback',$data,function ($message) use($data) {
         $message->from($data['email']);
-        $message->to('tsyduev.b.1@gmail.com')->subject('feedback');
+        $message->to('feedback@nasledie-rusi.ru')->subject('feedback');
       });
       return view('feedback');
 

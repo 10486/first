@@ -32,7 +32,7 @@ class AdminController extends Controller
     $file = $request->file('img');
     if(is_object($file)){
       $imgName = 'home_image.jpg';
-      $file->move(base_path().'nasledie-rusi.ru/images',$imgName);
+      $file->move(base_path().'/nasledie-rusi.ru/images',$imgName);
       $path = "/images/$imgName";
     }
     $home->update([
