@@ -34,3 +34,4 @@ Route::group(['middleware'=>'auth','prefix'=>'admin'],function () {
   Route::post('/register','RegController@register')->name('register');//ready
   Route::get('/logout','LogController@logout')->name('logout');//ready
 });
+ 
