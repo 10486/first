@@ -81,6 +81,10 @@ class ShowController extends Controller
     $data['pages'] = $this->pages;
     return view('actions',$data);
   }
+  public function donate()
+  {
+    return view('donate',['pages'=>$this->pages]);
+  }
 
 
   }

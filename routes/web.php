@@ -20,7 +20,7 @@ Route::get('/gallery','ShowController@gallery')->name('gallery');//ready
 Route::get('/search','SearchController@search')->name('search');//ready
 Route::match(['get','post'],'/login','LogController@login')->name('login');//ready
 Route::match(['get','post'],'/feedback','FeedbackController@main')->name('feedback');//ready
-Route::match(['get','post'],'/donate','FeedbackController@main')->name('donate');//ready
+Route::match(['get','post'],'/donate','ShowController@donate')->name('donate');//ready
 
 
 
@@ -34,4 +34,3 @@ Route::group(['middleware'=>'auth','prefix'=>'admin'],function () {
   Route::post('/register','RegController@register')->name('register');//ready
   Route::get('/logout','LogController@logout')->name('logout');//ready
 });
- 
