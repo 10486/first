@@ -1,6 +1,6 @@
 <nav id="nav">
   <ul>
-    @if(!Auth::check())
+    @if(!isset($admin))
     @foreach($pages as $page)
     <li class="{{Request::url() == route($page->routeName)?'active':''}}"><a href="{{route($page->routeName)}}">{{$page->name}}</a></li>
     @endforeach
