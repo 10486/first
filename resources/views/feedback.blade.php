@@ -93,7 +93,7 @@
 						</span>
 
 						<span class="txt2">
-							Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+							354376, Краснодарский край, г. Сочи, с. Веселое, пер. Васильковый, д.33, пом.41,
 						</span>
 					</div>
 				</div>
@@ -109,7 +109,10 @@
 						</span>
 
 						<span class="txt3">
-							+1 800 1236879
+							89284542619
+						</span>
+						<span class="txt3">
+							89261981387
 						</span>
 					</div>
 				</div>
@@ -125,7 +128,7 @@
 						</span>
 
 						<span class="txt3">
-							contact@example.com
+							nasledie.rusi@mail.ru
 						</span>
 					</div>
 				</div>

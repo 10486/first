@@ -3,39 +3,28 @@
 <div id="footer">
   <div class="container">
     <div class="row">
-      <div class="4u">
+      <div class="6u">
         <section>
-          <h2>Здесь можно указать ссылки на партенров</h2>
+          <h2>Партнёры</h2>
           <ul class="default">
-            <li><a href="#">Pellentesque lectus gravida blandit</a></li>
-            <li><a href="#">Lorem ipsum consectetuer adipiscing</a></li>
-            <li><a href="#">Phasellus nibh pellentesque congue</a></li>
-            <li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-            <li><a href="#">Maecenas vitae orci feugiat eleifend</a></li>
+            <li><a id="partner" href="#parnter">«Региональная общественная организация содействия правоохранительным органам по борьбе с экономическими преступлениями»</a></li>
+            <li><a id="SKRZ" href="#SKRZ">«Союз Казаков России и Зарубежья</a></li>
+            <li><a href="http://zagustay.msurb.ru">Администрация Муниципального образования сельского поселения «Загустайское» Селенгинского района</a></li>
+            <li><a href="https://aur-ora.com/ ">компания «AURORA»</a></li>
+            <li><a href="http://aur-ora.com/auth/registration/?ref=955315946822 ">Регистрация в компании «AURORA»</a></li>
           </ul>
         </section>
       </div>
-      <div class="4u">
+
+      <div class="6u">
         <section>
-          <h2>Ссылки на соцсети</h2>
+          <h2>юридический адрес</h2>
           <ul class="default">
-            <li><a href="#">Pellentesque lectus gravida blandit</a></li>
-            <li><a href="#">Lorem ipsum consectetuer adipiscing</a></li>
-            <li><a href="#">Phasellus nibh pellentesque congue</a></li>
-            <li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-            <li><a href="#">Maecenas vitae orci feugiat eleifend</a></li>
-          </ul>
-        </section>
-      </div>
-      <div class="4u">
-        <section>
-          <h2>Ну и в общем что угодно</h2>
-          <ul class="default">
-            <li><a href="#">Pellentesque lectus gravida blandit</a></li>
-            <li><a href="#">Lorem ipsum consectetuer adipiscing</a></li>
-            <li><a href="#">Phasellus nibh pellentesque congue</a></li>
-            <li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-            <li><a href="#">Maecenas vitae orci feugiat eleifend</a></li>
+            <li><a href="#">354376, Краснодарский край,</a></li>
+            <li><a href="#">г. Сочи, с. Веселое, пер. Васильковый, д.33, пом.41</a></li>
+            <li><a href="#">дата регистрации 13.11.2017г.</a></li>
+            <li><a href="#">ОГРН 1172375093945</a></li>
+            <li><a href="#">ИНН 2367000721</a></li>
           </ul>
         </section>
       </div>
