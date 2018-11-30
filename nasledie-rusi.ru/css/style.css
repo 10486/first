@@ -390,3 +390,19 @@
 		text-decoration: none;
 		color: rgba(255,255,255,.3);
 	}
+.social{
+	position: fixed;
+	left:10px;
+	bottom: 100px;
+}
+.social>*{
+	max-width:100px;
+}
+.social img{
+	width:50px;
+	border-radius: 30px;
+	transition: transform .5s;
+}
+.social img:hover{
+	transform: scale(1.25);
+}
