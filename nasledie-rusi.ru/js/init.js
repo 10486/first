@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix:`http://${window.location.hostname}/css/style`,
+	prefix:`https://${window.location.hostname}/css/style`,
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
